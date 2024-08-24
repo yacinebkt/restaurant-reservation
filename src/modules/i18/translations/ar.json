@@ -1,0 +1,33 @@
+{
+  "Reservations": "الحجوزات",
+  "Users": "المستخدمون",
+  "Analytics": "تحليلات",
+  "Email is required": "البريد الإلكتروني مطلوب",
+  "Invalid email": "البريد الإلكتروني غير صالح",
+  "Password is required": "كلمة المرور مطلوبة",
+  "Log in": "تسجيل الدخول",
+  "Email": "البريد الإلكتروني",
+  "Password": "كلمة المرور",
+  "toggle password visibility": "إظهار/إخفاء كلمة المرور",
+  "Login": "تسجيل الدخول",
+  "Auto Fill Test Credentials": "ملء تلقائي لبيانات تسجيل الدخول",
+  "Do you want to comeback to login ?": "هل تريد العودة لتسجيل الدخول؟",
+  "Send": "إرسال",
+  "Reservations List" : "قائمة الحجوزات",
+  "Users List" : "قائمة المستخدمين",
+  "Analytics Page" :"صفحة التحليلات",
+
+  "Name and Surname": "الاسم واللقب",
+  "Date": "التاريخ",
+  "Status": "الحالة",
+  "Start Time": "وقت البدء",
+  "End Time": "وقت الانتهاء",
+  "Quantity": "الكمية",
+  "Guest Notes": "ملاحظات الضيف",
+  "Shift": "الوردية",
+  "Area": "المنطقة",
+  "Search": "بحث",
+  "Start Date": "تاريخ البدء",
+  "End Date": "تاريخ الانتهاء"
+
+}

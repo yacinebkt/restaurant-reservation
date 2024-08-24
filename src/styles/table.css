@@ -1,0 +1,106 @@
+.table-all {
+  width: 100%;
+}
+
+.table-all td,
+.table-all th {
+  padding: 0px 8px;
+  display: table-cell;
+  text-align: left;
+}
+
+.table-all th:first-child,
+.table-all td:first-child {
+  padding-left: 16px;
+}
+
+.table-container:after,
+.table-container:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.table-container {
+  padding: 0.01em 16px;
+}
+
+.table-container {
+  padding: 0;
+}
+
+th:last-child,
+td:last-child {
+  content: "";
+  position: sticky;
+  right: 0px;
+  z-index: 2;
+}
+
+th:last-child {
+  z-index: 30 !important;
+}
+
+@media screen and (min-width: 800px) {
+  th:first-child,
+  td:first-child {
+    content: "";
+    position: sticky;
+    left: 0px;
+    z-index: 2;
+  }
+
+ 
+
+  th:first-child {
+    z-index: 30 !important;
+  }
+
+}
+
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* scrollbar 
+ ===================================================================================================== */
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.custom-scrollbar-table {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Hide the vertical scrollbar */
+.custom-scrollbar-table::-webkit-scrollbar {
+  width: 5px; /* Set the width of the custom scrollbar for X-axis */
+  height: 10px;
+}
+
+/* Style the track (the area behind the thumb) */
+.custom-scrollbar-table::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* You can change this to your desired color */
+}
+
+/* Style the thumb (the draggable part of the scrollbar) */
+.custom-scrollbar-table::-webkit-scrollbar-thumb {
+  background-color: rgba(1, 1, 1, 0.09);
+  /* You can change this to your desired color */
+  border-radius: 4px; /* Rounded corners for the thumb */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.custom-scrollbar-table::-webkit-scrollbar-thumb:hover {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hide the arrows/buttons at the ends of the scrollbar */
+.custom-scrollbar-table::-webkit-scrollbar-button {
+  display: none;
+}
+
+
+
+
+

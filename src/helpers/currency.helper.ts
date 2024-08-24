@@ -1,0 +1,43 @@
+export function getCurrencySymbol(currencyCode: string): string | undefined {
+  const currencySymbols: Record<string, string> = {
+    USD: "$",
+    EUR: "€",
+    GBP: "£",
+    JPY: "¥",
+    AUD: "A$",
+    CAD: "C$",
+    INR: "₹",
+    CNY: "¥",
+    RUB: "₽",
+    BRL: "R$",
+    MXN: "Mex$",
+    ZAR: "R",
+    AED: "د.إ",
+    ARS: "$",
+    BGN: "лв",
+    CLP: "$",
+    COP: "Col$",
+    CZK: "Kč",
+    DKK: "kr",
+    HKD: "HK$",
+    HUF: "Ft",
+    IDR: "Rp",
+    ILS: "₪",
+    KRW: "₩",
+    MYR: "RM",
+    NOK: "kr",
+    NZD: "NZ$",
+    PHP: "₱",
+    PLN: "zł",
+    SAR: "﷼",
+    SEK: "kr",
+    SGD: "S$",
+    THB: "฿",
+    TRY: "₺",
+    TWD: "NT$",
+    VND: "₫",
+    DZD: "د.ج", // Algerian Dinar
+  };
+
+  return currencySymbols[currencyCode?.toUpperCase()] || currencyCode;
+}
