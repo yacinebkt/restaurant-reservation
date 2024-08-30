@@ -4,7 +4,7 @@ This project is an admin dashboard boilerplate for Restaurant reservation platfo
 
 ## Links
 
-- **Dashboard:** [restaurant-reservation-umber.vercel.app](https://restaurant-reservation-umber.vercel.app/)
+- **Dashboard:** [restaurant-reservation-self.vercel.app](https://restaurant-reservation-self.vercel.app/)
 
 ## Table of Contents
 
